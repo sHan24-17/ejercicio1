@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wodth, initial-scale=1.0">
+    <title> Mi tarjeta de presentación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shandé Rodríguez</h1>
+        <nav>
+            <ul>
+                <li><a hred="#sobre_mi">Sobre mí</a></li>
+                <li><a hred="#habilidades">Habilidades</a></li>
+                <li><a hred="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre_mi">
+            <h2>Sobre mí</h2>
+            <img src="foto.png" alt="Foto de perfil de la laptop de Shandé" width="120" height="120">
+            <p>Soy estudiante de Desarrollo de Plataformas. Me interesa crear páginas web accesibles y bien estructuradas.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis habilidades</h2>
+            <button id="toggleHabilidades" type="button">Mostrar/ocultar habilidades</button>
+            <ul id="listaHabilidades">
+                <li>HTML5 semántico</li>
+                <li>CSS3 básico</li>
+                <li>JavaScript básico</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="Contacto">
+        <p>Contacto: sarodriguezz@puce.edu.ec</p>
+        <p>&copy; <span id="anio"></span> Shandé Rodríguez</p>
+    </footer>
+<script src="script.js" defer></script>
+</body>
+</html>
